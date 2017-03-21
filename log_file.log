@@ -1,0 +1,7 @@
+2017-03-21 11:28:40 INFO  Runner:20 - Start Runner Class
+2017-03-21 11:28:43 INFO  YandexTest:23 - BeforeTest: start browser
+2017-03-21 11:28:43 INFO  YandexTest:28 - start test method assertOneCanOpenMainPage
+2017-03-21 11:28:44 INFO  YandexTest:40 - start test method assertOneCanSingIn
+2017-03-21 11:28:47 INFO  YandexTest:34 - start test method assertOneCanTakeCorrectSearchResult
+2017-03-21 11:28:50 INFO  YandexTest:47 - AfterTest: close browser
+2017-03-21 11:28:50 INFO  Runner:29 - Shutting down app

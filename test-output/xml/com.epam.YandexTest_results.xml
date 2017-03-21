@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.255">
+  <properties />
+  
+  
+            <testcase name="assertOneCanOpenMainPage" time="1.489" classname="com.epam.YandexTest" />
+                <testcase name="assertOneCanSingIn" time="3.152" classname="com.epam.YandexTest" />
+                <testcase name="assertOneCanTakeCorrectSearchResult" time="2.614" classname="com.epam.YandexTest" />
+      
+</testsuite>

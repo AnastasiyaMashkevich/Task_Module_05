@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="9668" started-at="2017-03-21T08:28:40Z" finished-at="2017-03-21T08:28:50Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="9668" started-at="2017-03-21T08:28:40Z" finished-at="2017-03-21T08:28:50Z">
+      <class name="com.epam.YandexTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.YandexTest@48eff760]" name="setUp" is-config="true" duration-ms="2305" started-at="2017-03-21T11:28:40Z" description="Init browser" finished-at="2017-03-21T11:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertOneCanOpenMainPage()[pri:0, instance:com.epam.YandexTest@48eff760]" name="assertOneCanOpenMainPage" duration-ms="1489" started-at="2017-03-21T11:28:43Z" finished-at="2017-03-21T11:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOneCanOpenMainPage -->
+        <test-method status="PASS" signature="assertOneCanSingIn()[pri:0, instance:com.epam.YandexTest@48eff760]" name="assertOneCanSingIn" duration-ms="3152" started-at="2017-03-21T11:28:44Z" finished-at="2017-03-21T11:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOneCanSingIn -->
+        <test-method status="PASS" signature="assertOneCanTakeCorrectSearchResult()[pri:0, instance:com.epam.YandexTest@48eff760]" name="assertOneCanTakeCorrectSearchResult" duration-ms="2614" started-at="2017-03-21T11:28:47Z" finished-at="2017-03-21T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOneCanTakeCorrectSearchResult -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.YandexTest@48eff760]" name="stopBrowser" is-config="true" duration-ms="89" started-at="2017-03-21T11:28:50Z" description="Stop Browser" finished-at="2017-03-21T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.YandexTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
