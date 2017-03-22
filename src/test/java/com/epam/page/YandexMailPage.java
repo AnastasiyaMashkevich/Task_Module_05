@@ -20,6 +20,8 @@ public class YandexMailPage extends AbstractPage{
         HtmlElementLoader.populatePageObject(this, this.driver);
     }
 
+    public YandexMailPage () {}
+
     public void openPage () {
         driver.navigate().to(StaticParamClass.BASE_URL);
     }

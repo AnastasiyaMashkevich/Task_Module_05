@@ -15,8 +15,7 @@ public class YandexSteps {
     private WebDriver driver;
 
 
-    public void initBrowser()
-    {
+    public void initBrowser() throws Exception {
         driver = DriverFactory.getDriver("chrome");
     }
 
@@ -30,6 +29,11 @@ public class YandexSteps {
         YandexMainPage yandexMainPage = new YandexMainPage(driver);
         yandexMainPage.openPage();
         return yandexMainPage.isNeedPageOpen();
+    }
+
+    public  void open ( ){
+        YandexMainPage yandexMainPage = new YandexMainPage(driver);
+        yandexMainPage.openPage();
     }
 
     public boolean isCorrectSearch ()

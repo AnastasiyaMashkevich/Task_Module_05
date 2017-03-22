@@ -22,6 +22,8 @@ public class YandexMainPage extends AbstractPage {
         HtmlElementLoader.populatePageObject(this, this.driver);
     }
 
+    public YandexMainPage (){}
+
     public void openPage () {
         driver.navigate().to(StaticParamClass.BASE_URL);
     }
